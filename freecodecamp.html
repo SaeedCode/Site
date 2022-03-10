@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head  id="header">
+	<title></title>
+	<img id="header-img" src="img/black.png" width="50"></img>
+	<nav id="nav-bar">
+		<a class="nav-link" href="#div_1">A</a>
+		<a class="nav-link" href="#div_2">B</a>
+		<a class="nav-link" href="#div_3">C</a>
+	</nav>
+
+
+</head>
+<style type="text/css">
+	.flex-container{
+		display: flex;
+  		flex-direction: column;
+  		background-color: DodgerBlue;
+
+	}
+		#div_1{
+		background-color: #9b9b9b;
+		display: flex;
+		
+	}
+		#div_2{
+		background-color: blue;
+		
+	}
+		#div_3{
+		background-color: green;
+		
+	}
+</style>
+<body>
+<div id="div_1">
+	AAAAA
+</div>
+
+
+<div class="flex-container">
+<div id="div_2">
+	<video id="video" width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+<div id="div_3">
+	<form id="form" action= " https://www.freecodecamp.com/email-submit">
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"  placeholder="Enter Email"><br>
+  <input type="submit" id="submit" value="Submit">
+</form>
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
